@@ -1074,7 +1074,12 @@
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 		}
+/* map */
+#map {
 
+	height : 400px;
+	width :100%;
+}
 /* Wrapper */
 
 	.wrapper {
