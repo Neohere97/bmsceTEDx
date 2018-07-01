@@ -929,7 +929,9 @@
 /* Header */
 #logo1{
     float: left;
-	margin: 0%;
+	padding : 2%;
+	margin: 1%;
+	
 }
 	body.landing #header {
 		background-color: transparent;
