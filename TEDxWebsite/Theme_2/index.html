@@ -16,7 +16,7 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
-		
+		<script src="js/particles.js"></script>
 		
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -24,9 +24,17 @@
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
 	</head>
-	<body class="landing">
-		
-			
+	
+	<body class="landing ">
+		<div id="particles-js">
+		  
+			<img src="images/TEDx_logo.png" id="logo" alt="TEDx_logo">
+				
+			<ul class="actions" id="buton" >
+				<li>
+					<a href="#" class="button big">Register Now!</a>
+				</li>
+			</ul>
 		<!-- Header -->
 			<header id="header">
 				<img src="images/collegelogo.png" width="200" id = "logo1" height="200" alt="BMS College Of Engineering">
@@ -41,10 +49,10 @@
 					</ul>
 				</nav>
 			</header>
-
+		</div>
 		<!-- Banner -->
-	
-			<section id="banner">
+		
+			<!-- <section id="banner">
 				<center><img src="images/TEDx_logo.png" id="logo" alt="TEDx_logo">
 				
 				<ul class="actions">
@@ -52,7 +60,8 @@
 						<a href="#" class="button big">Register Now!</a>
 					</li>
 				</ul></center>
-			</section>
+			</section> -->
+
 
 		<!-- One -->
 			<section id="one" class="wrapper style1 special">
@@ -200,7 +209,7 @@
 						<div class="row">
 							
 							<section class="3u 6u(medium) 12u$(small)">
-								<h3>contact us</h3>
+								<h3>Contact us</h3>
 								<ul class="unstyled">
 									<li><a href="#">contact</a></li>
 									
@@ -227,6 +236,120 @@
 					
 				</div>
 			</footer>
+			<script type="text/javascript">
+				var partJson = {
+								"particles": {
+									"number": {
+									"value": 50,
+									"density": {
+										"enable": true,
+										"value_area": 800
+									}
+									},
+									"color": {
+									"value": "#ffffff"
+									},
+									"shape": {
+									"type": "circle",
+									"stroke": {
+										"width": 0,
+										"color": "#000000"
+									},
+									"polygon": {
+										"nb_sides": 5
+									},
+									"image": {
+										"src": "img/github.svg",
+										"width": 100,
+										"height": 100
+									}
+									},
+									"opacity": {
+									"value": 0.45,
+									"random": false,
+									"anim": {
+										"enable": false,
+										"speed": 1,
+										"opacity_min": 0.1,
+										"sync": false
+									}
+									},
+									"size": {
+									"value": 5,
+									"random": true,
+									"anim": {
+										"enable": false,
+										"speed": 40,
+										"size_min": 0.1,
+										"sync": false
+									}
+									},
+									"line_linked": {
+									"enable": true,
+									"distance": 150,
+									"color": "#ffffff",
+									"opacity": 0.4,
+									"width": 1
+									},
+									"move": {
+									"enable": true,
+									"speed": 6,
+									"direction": "none",
+									"random": false,
+									"straight": false,
+									"out_mode": "out",
+									"bounce": false,
+									"attract": {
+										"enable": false,
+										"rotateX": 600,
+										"rotateY": 1200
+									}
+									}
+								},
+								"interactivity": {
+									"detect_on": "canvas",
+									"events": {
+									"onhover": {
+										"enable": true,
+										"mode": "repulse"
+									},
+									"onclick": {
+										"enable": true,
+										"mode": "push"
+									},
+									"resize": true
+									},
+									"modes": {
+									"grab": {
+										"distance": 400,
+										"line_linked": {
+										"opacity": 1
+										}
+									},
+									"bubble": {
+										"distance": 400,
+										"size": 40,
+										"duration": 2,
+										"opacity": 8,
+										"speed": 3
+									},
+									"repulse": {
+										"distance": 200,
+										"duration": 0.4
+									},
+									"push": {
+										"particles_nb": 4
+									},
+									"remove": {
+										"particles_nb": 2
+									}
+									}
+								},
+								"retina_detect": true
+								}
+                  var jsonUri = "data:text/plain;base64,"+window.btoa(JSON.stringify(partJson));
+                 particlesJS.load('particles-js', jsonUri);
+			   </script>
 			<script>
 				
 				function initMap() {
