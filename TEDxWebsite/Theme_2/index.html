@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-	Transit by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -17,7 +12,9 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/particles.js"></script>
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/smoothscroll.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -26,6 +23,7 @@
 	</head>
 	
 	<body class="landing ">
+	  <div id="site-wrapper">
 		<div id="particles-js">
 		  
 			<img src="images/TEDx_logo.png" id="logo" alt="TEDx_logo">
@@ -41,9 +39,9 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html">HOME</a></li>
-						<li><a href="generic.html">ABOUT</a></li>
-						<li><a href="elements.html">SPEAKERS</a></li>
-						<li><a href="">SPONSORS</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="#speakers" class="smoothScroll">SPEAKERS</a></li>
+						<li><a href="#sponsors" class="smoothScroll">SPONSORS</a></li>
 						<li><a href="gallery.html">GALLERY</a></li>
 						<li><a href="#">CONTACT US</a></li>
 					</ul>
@@ -64,7 +62,9 @@
 
 
 		<!-- One -->
-			<section id="one" class="wrapper style1 special">
+		<a name="speakers" class="smoothScroll"></a> 
+
+			<section  id="one" class="wrapper style1 special">
 				<div class="container">
 					<header class="major">
 						<h2>Our Speakers</h2>
@@ -150,6 +150,7 @@
 			</section>
 
 		<!-- Two -->
+		<a name="sponsors" class="smoothScroll"></a> 
 			<section id="two" class="wrapper style2 special">
 				<div class="container">
 					<header class="major">
@@ -358,9 +359,12 @@
 					  document.getElementById('map'), {zoom: 18, center: BMSCE});
 				  var marker = new google.maps.Marker({position: BMSCE, map: map});
 				}
-					</script>
+					</script>					
+					
+
 			<script async defer
 			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDx--LK3-MCTnhAhaHWy81SrKFkV20ni4Y&callback=initMap">
 			</script>
+	  </div>
 	</body>
 </html>
