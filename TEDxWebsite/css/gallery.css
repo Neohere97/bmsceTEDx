@@ -1,0 +1,24 @@
+
+body {
+    background-color: rgb(46, 45, 45);
+}
+#tedx_img{
+
+    width: 28%;
+    margin-left: 35vw;
+}
+#YTR {
+padding:5.5% 0 5.5% 15vw;
+
+}
+#textr{
+    padding-left: 4vw;
+    padding-top: 18vh;
+    padding-right:15vw;
+    color: white;
+}
+#textl{
+    padding-top: 8vw;
+    padding-left: 30vw;
+    color: white;
+}
