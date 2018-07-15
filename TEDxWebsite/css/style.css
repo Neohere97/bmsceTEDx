@@ -1279,4 +1279,22 @@
 			margin-top: 30%;
 	
 		}
-		
+		@media(max-width:722px){
+			#logo{
+				max-width: 95vw;
+				height: auto;
+				position: absolute;
+				margin-left: 2.5vw;
+				margin-top: 28vh;		
+			
+				/* padding: 14em 0em 14em; */
+				   
+			}
+	
+			#buton {
+				position: absolute;
+				margin-left: 24vw;
+				margin-top: 80vw;
+				
+			}
+		}
