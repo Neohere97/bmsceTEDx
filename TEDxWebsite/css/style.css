@@ -2,13 +2,57 @@
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
 
-/*
-	Transit by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+#logo1{
+	float: left;
+	padding : 2%;
+	margin: 1%;
+	
+}
 
-/* Basic */
+/* map */
+#map {
+
+	height : 400px;
+	width :100%;
+}
+
+
+#logo{
+	max-width: 35%;
+	height: auto;
+	position: absolute;
+	margin-left: 33%;
+	margin-top: 18%;		
+
+	/* padding: 14em 0em 14em; */
+	   
+}
+
+#buton {
+	position: absolute;
+	margin-left: 43vw;
+	margin-top: 30%;
+
+}
+@media(max-width:722px){
+	#logo{
+		max-width: 95vw;
+		height: auto;
+		position: absolute;
+		margin-left: 2.5vw;
+		margin-top: 28vh;		
+	
+		/* padding: 14em 0em 14em; */
+		   
+	}
+
+	#buton {
+		position: absolute;
+		margin-left: 17vw;
+		margin-top: 47vh;
+		min-width: 65vw;
+	}
+}
 
 	 body {
 		background: #fff;		
@@ -1247,54 +1291,4 @@
 			height: 100%
 		} */
 
-		#logo1{
-			float: left;
-			padding : 2%;
-			margin: 1%;
-			
-		}
-
-		/* map */
-		#map {
-
-			height : 400px;
-			width :100%;
-		}
-
-
-		#logo{
-			max-width: 35%;
-			height: auto;
-			position: absolute;
-			margin-left: 33%;
-			margin-top: 18%;		
 		
-			/* padding: 14em 0em 14em; */
-			   
-		}
-
-		#buton {
-			position: absolute;
-			margin-left: 43vw;
-			margin-top: 30%;
-	
-		}
-		@media(max-width:722px){
-			#logo{
-				max-width: 95vw;
-				height: auto;
-				position: absolute;
-				margin-left: 2.5vw;
-				margin-top: 28vh;		
-			
-				/* padding: 14em 0em 14em; */
-				   
-			}
-	
-			#buton {
-				position: absolute;
-				margin-left: 17vw;
-				margin-top: 47vh;
-				min-width: 65vw;
-			}
-		}
