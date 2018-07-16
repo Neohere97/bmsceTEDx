@@ -2,6 +2,7 @@
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
 
+
 #logo1{
 	float: left;
 	padding : 2%;
@@ -34,7 +35,7 @@
 	margin-top: 30%;
 
 }
-@media(max-width:722px){
+@media(max-device-aspect-ratio:10/16){
 	#logo{
 		max-width: 95vw;
 		height: auto;
