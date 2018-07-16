@@ -1275,7 +1275,7 @@
 
 		#buton {
 			position: absolute;
-			margin-left: 42.25%;
+			margin-left: 43vw;
 			margin-top: 30%;
 	
 		}
@@ -1293,8 +1293,8 @@
 	
 			#buton {
 				position: absolute;
-				margin-left: 24vw;
-				margin-top: 80vw;
-				
+				margin-left: 17vw;
+				margin-top: 47vh;
+				min-width: 65vw;
 			}
 		}
