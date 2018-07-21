@@ -22,6 +22,120 @@
 	</head>
 	
 	<body class="landing ">
+			<script type="text/javascript">
+				var partJson = {
+								"particles": {
+									"number": {
+									"value": 50,
+									"density": {
+										"enable": true,
+										"value_area": 800
+									}
+									},
+									"color": {
+									"value": "#ffffff"
+									},
+									"shape": {
+									"type": "circle",
+									"stroke": {
+										"width": 0,
+										"color": "#000000"
+									},
+									"polygon": {
+										"nb_sides": 5
+									},
+									"image": {
+										"src": "img/github.svg",
+										"width": 100,
+										"height": 100
+									}
+									},
+									"opacity": {
+									"value": 0.55,
+									"random": false,
+									"anim": {
+										"enable": false,
+										"speed": 1,
+										"opacity_min": 0.1,
+										"sync": false
+									}
+									},
+									"size": {
+									"value": 5,
+									"random": true,
+									"anim": {
+										"enable": false,
+										"speed": 40,
+										"size_min": 0.1,
+										"sync": false
+									}
+									},
+									"line_linked": {
+									"enable": true,
+									"distance": 150,
+									"color": "#ffffff",
+									"opacity": 0.4,
+									"width": 1
+									},
+									"move": {
+									"enable": true,
+									"speed": 6,
+									"direction": "none",
+									"random": false,
+									"straight": false,
+									"out_mode": "out",
+									"bounce": false,
+									"attract": {
+										"enable": false,
+										"rotateX": 600,
+										"rotateY": 1200
+									}
+									}
+								},
+								"interactivity": {
+									"detect_on": "canvas",
+									"events": {
+									"onhover": {
+										"enable": true,
+										"mode": "repulse"
+									},
+									"onclick": {
+										"enable": true,
+										"mode": "push"
+									},
+									"resize": true
+									},
+									"modes": {
+									"grab": {
+										"distance": 400,
+										"line_linked": {
+										"opacity": 1
+										}
+									},
+									"bubble": {
+										"distance": 400,
+										"size": 40,
+										"duration": 2,
+										"opacity": 8,
+										"speed": 3
+									},
+									"repulse": {
+										"distance": 200,
+										"duration": 0.4
+									},
+									"push": {
+										"particles_nb": 4
+									},
+									"remove": {
+										"particles_nb": 2
+									}
+									}
+								},
+								"retina_detect": true
+								}
+                  var jsonUri = "data:text/plain;base64,"+window.btoa(JSON.stringify(partJson));
+                 particlesJS.load('particles-js', jsonUri);
+			   </script>
 	
 		<div id="particles-js">
 		  
@@ -40,8 +154,8 @@
 						<li><a href="#speakers" >SPEAKERS</a></li>
 						<li><a href="#sponsors" >SPONSORS</a></li>
 						<li><a href="gallery.html">TEDxBMSCE 2016</a></li>
-						<!-- <li><a href="about.html">TEAM</a></li> -->
-						<li><a href="">CONTACT US</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="#contactus">CONTACT US</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -185,42 +299,16 @@
 			</section>
 
 		<!-- Footer -->
-		
+		<a name="contactus" ></a> 
 			<footer id="footer">
 				<div class="container">
-						<div class="container 50%">
-								<a name = "Register" ></a> 
-								<form action="#" method="post">
-									<div class="row uniform">
-										<div class="6u 12u$(small)">
-											<input name="name" id="name" value="" placeholder="Name" type="text">
-										</div>
-										<div class="6u$ 12u$(small)">
-											<input name="email" id="email" value="" placeholder="Email" type="email">
-										</div>
-										<div class="6u$ 12u$(small)">
-												<input name="tel" id="tel" value="" placeholder="Phone Number" type="tel" >
-										</div>
-										
-										<div class="12u$">
-											<ul class="actions">
-												<li><input value="Register" class="special big" type="submit"></li>
-											</ul>
-											<br><br>
-																			
-										</div>
-									</div>
-								</form>
-							</div>
+						<h2 style="text-align: center; padding-bottom: 3%;">Any Queries?</h2>
 					<section class="links">
 						<div class="row">
 							
 							<section class="3u 6u(medium) 12u$(small)">
-								<h3>Contact us</h3>
-								<ul class="unstyled">
-									<li><a href="#">contact</a></li>
-									
-								</ul>
+								<h3>tedxbmsce@bmsce.ac.in</h3>
+								
 							</section>
 
 							<div class="4u$ 12u$(medium)" >
@@ -243,120 +331,7 @@
 					
 				</div>
 			</footer>
-			<script type="text/javascript">
-				var partJson = {
-								"particles": {
-									"number": {
-									"value": 50,
-									"density": {
-										"enable": true,
-										"value_area": 800
-									}
-									},
-									"color": {
-									"value": "#ffffff"
-									},
-									"shape": {
-									"type": "circle",
-									"stroke": {
-										"width": 0,
-										"color": "#000000"
-									},
-									"polygon": {
-										"nb_sides": 5
-									},
-									"image": {
-										"src": "img/github.svg",
-										"width": 100,
-										"height": 100
-									}
-									},
-									"opacity": {
-									"value": 0.55,
-									"random": false,
-									"anim": {
-										"enable": false,
-										"speed": 1,
-										"opacity_min": 0.1,
-										"sync": false
-									}
-									},
-									"size": {
-									"value": 5,
-									"random": true,
-									"anim": {
-										"enable": false,
-										"speed": 40,
-										"size_min": 0.1,
-										"sync": false
-									}
-									},
-									"line_linked": {
-									"enable": true,
-									"distance": 150,
-									"color": "#ffffff",
-									"opacity": 0.4,
-									"width": 1
-									},
-									"move": {
-									"enable": true,
-									"speed": 6,
-									"direction": "none",
-									"random": false,
-									"straight": false,
-									"out_mode": "out",
-									"bounce": false,
-									"attract": {
-										"enable": false,
-										"rotateX": 600,
-										"rotateY": 1200
-									}
-									}
-								},
-								"interactivity": {
-									"detect_on": "canvas",
-									"events": {
-									"onhover": {
-										"enable": true,
-										"mode": "repulse"
-									},
-									"onclick": {
-										"enable": true,
-										"mode": "push"
-									},
-									"resize": true
-									},
-									"modes": {
-									"grab": {
-										"distance": 400,
-										"line_linked": {
-										"opacity": 1
-										}
-									},
-									"bubble": {
-										"distance": 400,
-										"size": 40,
-										"duration": 2,
-										"opacity": 8,
-										"speed": 3
-									},
-									"repulse": {
-										"distance": 200,
-										"duration": 0.4
-									},
-									"push": {
-										"particles_nb": 4
-									},
-									"remove": {
-										"particles_nb": 2
-									}
-									}
-								},
-								"retina_detect": true
-								}
-                  var jsonUri = "data:text/plain;base64,"+window.btoa(JSON.stringify(partJson));
-                 particlesJS.load('particles-js', jsonUri);
-			   </script>
+			
 			<script>
 				
 				function initMap() {

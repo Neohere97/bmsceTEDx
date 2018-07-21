@@ -1,0 +1,22 @@
+body {
+    padding-top: 5%;
+    background-color: rgb(46, 45, 45);
+}
+
+#divpadding{
+    padding-top:2%;
+    padding-bottom:2%;
+}
+#logo {
+    padding-top: 10vh;
+    width: 30vw;
+}
+
+#names{
+    color: white;
+    padding-top: 6%;
+}
+
+#team_images{
+    border: solid 5px #e62b1e;
+}
