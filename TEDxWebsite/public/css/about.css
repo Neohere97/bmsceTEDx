@@ -1,8 +1,13 @@
 body {
     padding-top: 5%;
     background-color: rgb(46, 45, 45);
+    width:100vw;
+        
 }
-
+#YTplayer{
+    width:560px;
+    height: 315px;
+}
 #divpadding{
     padding-top:2%;
     padding-bottom:2%;
@@ -18,5 +23,42 @@ body {
 }
 
 #team_images{
-    border: solid 5px #e62b1e;
+    border: solid 10px whitesmoke;
+}
+
+@media(max-device-aspect-ratio:10/16){
+           
+    #logo{
+        width: 95vw;
+        padding-right: 3vw;
+        padding-bottom: 18vw;			
+			   
+    }
+    #YTplayer{
+        width:95vw;
+        height: 54vw;
+        padding-right: 4vw;
+        padding-bottom: 8vw;
+        
+    }
+    #names{
+        color: white;
+        padding-top: 6%;
+        padding-left: 18vw;
+    } 
+    #team_images{
+        /* border: solid 5px #e62b1e; */
+        width: 50vw;
+        height: auto;
+        margin-left: 20vw;
+        margin-top: 5%;
+        border: solid 6px whitesmoke;
+
+    }
+
+    #divpadding{
+        padding-top:4%;
+        padding-bottom:4%;
+    }
+    
 }
