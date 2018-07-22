@@ -44,7 +44,8 @@ body {
     #names{
         color: white;
         padding-top: 6%;
-        padding-left: 18vw;
+        
+        text-align: center;
     } 
     #team_images{
         /* border: solid 5px #e62b1e; */
