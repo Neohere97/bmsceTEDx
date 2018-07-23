@@ -7,3 +7,6 @@ Images-About Page  (rootfolder)/images/about
 Javascript         (rootfolder)/js
 CSS                (rootfolder)/css 
 fonts              (rootfolder)/fonts
+
+
+'node-modules' is currently in .gitignore
