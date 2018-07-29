@@ -21,7 +21,9 @@ app.get("/about",(req,res)=>{
     res.render('about');
 });
 
-
+app.get("/register",(req, res)=>{
+    res.redirect("https://docs.google.com/forms/d/1c0mV3v_i6ewnRELaDnsfP2cBbVQj6ISIK4sgsKBQvkU");    
+})
 
 app.listen(port,()=>{console.log("Server Started...");});
 
