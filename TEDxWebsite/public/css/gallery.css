@@ -8,9 +8,9 @@ body {
     width: 100vw;
 }
 #tedx_img{
-
+    margin-top: 2vw;
     width: 20%;
-    margin-left: 35vw;
+    margin-left: 38vw;
 }
 #YTL {
 padding:8% 0% 8% 10vw;
@@ -21,13 +21,13 @@ padding:8% 0% 8% 10vw;
 }
 #textr{
     padding-left: 4vw;
-    padding-top: 18vh;
+    padding-top: 11vw;
     padding-right:10vw;
     color: white;
 }
 #textl{
     padding-top: 8vw;
-    padding-left: 30vw;
+    padding-left: 25vw;
     color: white;
 }
 
@@ -40,6 +40,12 @@ padding:8% 0% 8% 10vw;
 #names{
   font-size: 3vw;
 } 
+
+#buton{
+
+    padding-left: 8vw;
+    
+}
 @media(max-device-aspect-ratio:10/16){
     #buton{
         padding-left: 5vw;

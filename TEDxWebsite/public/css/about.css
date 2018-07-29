@@ -5,21 +5,24 @@ body {
         
 }
 #YTplayer{
-    width:560px;
-    height: 315px;
+    width:36vw;
+    height: 17.5vw;
+    padding-right: 6vw;
+    margin-top: 1vw;
 }
 #divpadding{
     padding-top:2%;
     padding-bottom:2%;
 }
+
 #logo {
-    padding-top: 10vh;
+    padding-top: 12vw;
     width: 30vw;
 }
 
 #names{
     color: white;
-    padding-top: 6%;
+    padding-top: 7em;
 }
 
 #team_images{
