@@ -2,13 +2,13 @@
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
 
-#load{
+/* #load{
     width:100%;
     height:100%;
     position:fixed;
     z-index:9999;
     background:url(..//images/Preloader_5.gif) no-repeat center center rgba(255, 255, 255, 0.925)
-}
+} */
 
 #logo1{
 	float: left;
