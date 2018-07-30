@@ -46,6 +46,7 @@ padding:8% 0% 8% 10vw;
     padding-left: 8vw;
     
 }
+
 @media(max-device-aspect-ratio:10/16){
     #buton{
         padding-left: 5vw;

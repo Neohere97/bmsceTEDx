@@ -29,12 +29,35 @@ body {
     border: solid 10px whitesmoke;
 }
 
+#buton{
+
+    padding-left: 0vw;
+    
+}
+#logo-padding{
+    padding-top:3%;
+    padding-bottom:2%;
+}
+
 @media(max-device-aspect-ratio:10/16){
-           
+    #heading{
+        padding-bottom:1em;
+        padding-top:1em;
+    }
+    #buton{
+        padding-left: 1vw;
+        
+       
+    }
+    #logo-padding{
+        padding-top:0%;
+        padding-bottom:0%;
+    }
+    
     #logo{
         width: 95vw;
         padding-right: 3vw;
-        padding-bottom: 18vw;			
+        padding-bottom: 38vw;			
 			   
     }
     #YTplayer{
