@@ -42,7 +42,7 @@ body {
 @media(max-device-aspect-ratio:10/16){
     #heading{
         padding-bottom:1em;
-        padding-top:1em;
+        padding-top:1.8em;
     }
     #buton{
         padding-left: 1vw;
