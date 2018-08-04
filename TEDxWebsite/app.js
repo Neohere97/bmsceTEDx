@@ -22,7 +22,7 @@ app.get("/about",(req,res)=>{
 });
 
 app.get("/register",(req, res)=>{
-    res.redirect("https://docs.google.com/forms/d/1c0mV3v_i6ewnRELaDnsfP2cBbVQj6ISIK4sgsKBQvkU");    
+    res.redirect("https://goo.gl/forms/xfJ7uHadjp4JgI7F2");    
 })
 
 app.listen(port,()=>{console.log("Server Started...");});
