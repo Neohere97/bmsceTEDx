@@ -16,14 +16,17 @@ app.get("/gallery",(req,res)=>{
     res.render('gallery');
 });
 
-
 app.get("/about",(req,res)=>{
     res.render('about');
 });
 
 app.get("/register",(req, res)=>{
-    res.redirect("https://goo.gl/forms/xfJ7uHadjp4JgI7F2");    
-})
+    res.redirect("https://www.townscript.com/e/tedxbmsce-2018-002010");    
+});
+
+app.get("/registerSucess", (req, res)=>{
+    res.render('acknow');
+});
 
 app.listen(port,()=>{console.log("Server Started...");});
 

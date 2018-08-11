@@ -21,6 +21,18 @@
 			<link rel="stylesheet" href="../css/style.css" />
 			
 		</noscript>
+		<style>
+		
+		#tlogo{
+			width : 60vw;
+			height: auto;
+		}
+		@media(min-width:400px){
+			#tlogo{
+				width : 30vw;
+			}
+		}
+		</style>
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		
 	<!-- <script>document.onreadystatechange = function () {
@@ -37,7 +49,7 @@
 		  }</script> -->
 	</head>
 	
-	<body class="landing">
+	<body class="landing" style="overflow: hidden; background: #000">
 			
 		<!-- <div id="load"></div>		 -->
 		
@@ -152,189 +164,52 @@
 									}
 									}
 								},
-								"retina_detect": true
+								"retina_detect": true,
 								}
                   var jsonUri = "data:text/plain;base64,"+window.btoa(JSON.stringify(partJson));
                  particlesJS.load('particles-js', jsonUri);
 			   </script>
 	
-		<div id="particles-js">
-		  
+	<div style="position : absolute;" ></div>
+			
+			   
+		<div class="text-center" style="padding-top : 30vh; z-index: 2;position: relative; "> 
+				<img src="../images/TEDx_logo.png" id="tlogo" alt="TEDx_logo">
+				<ul class="actions"></ul>
+					<li>
+						<p style="color:white; padding : 5vh; font-weight:bold;">Thank you! You have Successfully Registered!
+							<br>You will recieve a confirmation Email/SMS </p>
+						<a style="text-decoration: none;" href="/"  class="button big">Head Back Home!</a>
+					</li>
+				</ul>
+			<!-- Header -->
+				<header id="header">
+					<a href="http://bmsce.in" target="_blank"><img src="../images/collegelogo.png" id = "logo1" alt="BMS College Of Engineering"></a>
+				</header>
+			</div>
+	 
+		</div>
+
+		
+			
+		
+
+
+
+		  <!-- <div>
 			<img src="../images/TEDx_logo.png" id="logo" alt="TEDx_logo">
-				
-				
 			<ul class="actions" id="buton" >
 				<li>
-					<a style="text-decoration: none;" href="/register"  class="button big">Book Tickets!</a>
+					<p style="color:white; font-weight:bold; margin-left: -4vw">Thank you! You have Successfully Registered! </p>
+					<a style="text-decoration: none;" href="/"  class="button big">Head Back Home!</a>
 				</li>
-			</ul>
+			</ul> -->
 		<!-- Header -->
-			<header id="header">
+			<!-- <header id="header">
 				<a href="http://bmsce.in" target="_blank"><img src="../images/collegelogo.png" id = "logo1" alt="BMS College Of Engineering"></a>
-				<nav id="nav">
-					<ul>							
-						<li><a href="#speakers" >SPEAKERS</a></li>
-						<li><a href="#sponsors" >SPONSORS</a></li>
-						<li><a href="/gallery">TEDxBMSCE 2016</a></li>
-						<li><a href="/about">ABOUT</a></li>
-						<li><a href="#contactus">CONTACT US</a></li>
-					</ul>
-				</nav>
 			</header>
-		</div>
-		
-		<div>
-			<div id="theme_section">
 
-					<div class="container-fluid">
-							<div class="row">
-								<div class="col-md-5">
-										<img src="images/Theme_logo.jpg" id="theme_logo" alt="">
-								</div>
-								<div class="col-md-1">
-								</div>
-								<div class="col-md-6" id="theme_text">
-									
-									<header>
-										
-										<h1 id="AADD">
-											ACROSS A <span style="color:#e62b1e">DOZEN</span> DIMENSIONS
-										</h1>
-									
-									</header>
-									
-									
-									<p>
-											It is inevitable that we walk through the path of life as time passes, sometimes if we are fortunate enough we can choose the path we take. Irrespective of the path we take, we are bound to meet new people, and they are all unique in their own ways. Each one of them have a story to tell, have something new to offer, a varied perspective. <strong> This perspective is metaphorized as a dimension.</strong> Each of them contribute to a dimension that makes this world a better place by providing vision and a path for the future. This event on <strong> September 8th 2018</strong> is all about that, by the end of the event, you along with your own perspectives will have an additional dozen dimensions added to your consciousness, helping you walk through your path of life efficiently and more knowledgeable than before.
-									</p>
-								
-								</div>
-								
-							</div>
-							<img id="mic" src="images/mic.png" alt="">
-						</div>
-			
-			
-		    </div>
-		</div>
-		
-		<a name="speakers" ></a> 
-		  
-            <div  style="background-color: rgba(0, 0, 0, 0)" id="spkrs">
-					
-					<header class="major" id="Ospeakers">
-							<h2>Our Speakers</h2>							
-					</header>
-					<div id="slideshow">
-
-
-						
-					<div class="container-fluid">
-							<div class="row">
-								<div class="col-md-2">
-								</div>
-								<div class="col-md-3">
-									<img alt="Bootstrap Image Preview" id="speakers_img" src="images/speakers/dilip-patel.jpg" class="rounded-circle" />
-								</div>
-								<div class="col-md-6" id="speakers_text">
-									<h2>
-										Dilip Patel
-									</h2>
-									<p>
-										Engineer, Counsellor, Trainer, Learning Facilitator <br>
-										& Certified Zentangle Teacher
-									</p>
-									
-								</div>
-								<div class="col-md-1">
-								</div>
-							</div>
-						</div>
-
-						<div class="container-fluid">
-								<div class="row">
-									<div class="col-md-2">
-									</div>
-									<div class="col-md-3">
-										<img alt="Bootstrap Image Preview" id="speakers_img" src="images/speakers/Sudeendra_Koushik.jpg" class="rounded-circle" />
-									</div>
-									<div class="col-md-6" id="speakers_text">
-										<h2>
-											Sudeendra Koushik
-										</h2>
-										<p>
-											Chair IEEE Bangalore, Chief Innovator & Co-Founder at Prasu
-										</p>									
-									</div>
-									<div class="col-md-1">
-										</div>
-								</div>
-							</div>
-					</div>
-					
-					<img id="theme_skyline" src="images/skyline.png" alt="">
-				</div>
-				
-		<!-- Two -->
-		<a name="sponsors" ></a> 
-			<section id="two" class="wrapper style1 special">
-				<div class="container">
-					<header class="major">
-						<h2>Our Sponsors</h2>						
-					</header>
-					<center><h3>Coming Soon</h3></center>	
-					
-				</div>
-			</section>
-
-		<!-- Three -->
-			<section id="three" class="wrapper style3 special">
-				<div class="container">
-					<header class="major">
-						<h2>Venue</h2>
-						<p> BMS College of Engineering,
-							Bull Temple Road,
-							Basavanagudi
-							Bengaluru, 560019 </p>
-					</header>
-				</div>
-				<div id="map"></div>
-				
-			</section>
-
-		<!-- Footer -->
-		<a name="contactus" ></a> 
-			<footer id="footer">
-				<div class="container">
-						<h2 style="text-align: center; padding-bottom: 3%;">Any Queries?</h2>
-					<section class="links">
-						<div class="row">					
-							
-								<ul class="icons">
-									<li>
-										<p><i class="icon rounded fa-envelope" href="tedxbmsce@bmsce.ac.in" target="_blank"><span class="label">Mail</span></i>tedxbmsce@bmsce.ac.in</p>
-									</li>
-
-									<li>
-										<a class="icon rounded fa-facebook" href="https://facebook.com/tedxbmsce" target="_blank"><span class="label">Facebook</span></a>
-									</li>
-									<li>
-										<a class="icon rounded fa-twitter" href="https://twitter.com/tedxbmsce" target="_blank"><span class="label">Twitter</span></a>
-									</li>
-									<li>
-										<a class="icon rounded fa-instagram" href="https://www.instagram.com/tedxbmsce" target="_blank"><span class="label">Instagram</span></a>
-									</li>
-									<li>
-										<a class="icon rounded fa-linkedin" href="https://in.linkedin.com/company/tedxbmsce" target="_blank"><span class="label">LinkedIn</span></a>
-									</li>
-								</ul>							
-							
-						</div>
-					</section>
-					
-				</div>
-			</footer>
-			
+			</div> -->
 			<script>
 				
 				function initMap() {
