@@ -10,6 +10,7 @@
     background:url(..//images/Preloader_5.gif) no-repeat center center rgba(255, 255, 255, 0.925)
 } */
 
+
 #logo1{
 	float: left;
 	padding : 2%;
@@ -49,7 +50,7 @@
 	margin-left: 33%;
 	margin-top: 37vh;		
     transition: transform 0.2s;
-	/* padding: 14em 0em 14em; */
+	/* pm 0em 14em; */
 	   
 }
 #logo:hover{
