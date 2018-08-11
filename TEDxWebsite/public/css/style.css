@@ -202,8 +202,8 @@
 		font-size: 18pt;
 	}
 	#theme_skyline{
-	
-		width: 150vw;
+	    overflow-x:hidden;
+		width: 140vw;
 		height: auto;
 		position: absolute;
 		z-index: -100;
