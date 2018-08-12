@@ -30,6 +30,18 @@ body {
 #speakers_img:hover{
     transform: scale(1.05);
 }
+
+#theme_skyline{
+	
+	width: 100vw;
+	height: auto;
+	position: absolute !important;
+	z-index: -100;
+	margin-top:40vh;
+	opacity: 0.75;
+	transition: transform .5s;
+
+}
 @media(max-device-aspect-ratio:10/16){
     #heading{
      
