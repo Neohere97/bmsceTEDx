@@ -28,6 +28,10 @@ app.get("/registerSuccess", (req, res)=>{
     res.render('acknow');
 });
 
+app.get("/speakersDetails", (req, res)=>{
+    res.render('speaker');
+});
+
 app.listen(port,()=>{console.log("Server Started...");});
 
 

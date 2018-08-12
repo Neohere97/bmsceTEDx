@@ -1,0 +1,65 @@
+body {
+    padding-top: 5%;
+    background-color: rgb(46, 45, 45);
+    width:100vw;
+        
+}
+#divpadding{
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+#buton{
+    margin-left: 8vw;
+}
+#speakers_text{
+    color: white;    
+    padding-right: 10em;
+    padding-left: 7em;
+    padding-top: 5vh;
+    font-size: 1.1em;
+   
+}
+#speakers_img{
+    width:18vw;
+    height:auto;
+    border: solid whitesmoke 10px;
+    margin-left: 11em;
+    transition: transform 0.4s;
+}
+#speakers_img:hover{
+    transform: scale(1.05);
+}
+@media(max-device-aspect-ratio:10/16){
+    #heading{
+     
+        padding-top:1.8em;
+    }
+   
+    #speakers_text{
+        color: white;    
+        padding-right: 0.5em;
+        padding-left: 0.5em;
+        padding-top: 0vh;
+        font-size: 1em;
+        text-align: center;
+       
+    }
+    #buton{
+        margin-left: 1vw;
+    }
+    #speakers_img{
+        width:65vw;
+        height:auto;
+        border: solid whitesmoke 6px;
+        margin-left: 12vw;
+    }
+   
+   
+
+    #divpadding{
+        padding-top:4%;
+        padding-bottom:4%;
+    }
+    
+}
