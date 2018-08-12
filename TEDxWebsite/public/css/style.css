@@ -73,7 +73,7 @@
 	z-index: 10;
 }
 #speakers_img{
-	width: 22vw;
+	width: 21vw;
 	height:auto;
 	margin-left:4em;	
 	transition: transform .5s;
@@ -124,7 +124,7 @@
 
 }
 #mic{
-	width:7vw;
+	width:6vw;
 	height:auto;
 	margin-left: 4em;	
 	position: absolute !important;
@@ -134,6 +134,49 @@
 #mic:hover{
 	transform: rotate(-20deg);
 }
+
+.dot {
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+	margin: 0 1px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.3s;
+	margin-top: 49vh;
+  }
+  
+  .active, .dot:hover {
+	background-color: #717171;
+  }
+
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: 17vh;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+	transition: transform 0.3s;
+	border-radius: 0 3px 3px 0;
+	z-index: 1111;
+  }
+  .prev:hover, .next:hover{
+	  transform: scale(1.2);	  
+  }
+  .prev{
+	  left:2em;
+  }
+  .next {
+	right: 2.3em;
+	border-radius: 3px 0 0 3px;
+  }  
+ 
+
 @media(max-device-aspect-ratio:10/16){
 	#logo{
 		max-width: 95vw;
@@ -172,7 +215,7 @@
 	#speakers_img{
 		width: 60vw;
 		height:auto;		
-		margin-left:4.2em;
+		margin-left:3.8em;
 	}
 	#speakers_text{
 		padding-top:2em;
@@ -219,6 +262,24 @@
 		position: absolute;
 		z-index: -101;
 	}
+
+	.prev{
+		left:2vw;
+	}
+	.next {
+	  right: 2vw;
+	  border-radius: 3px 0 0 3px;
+	}  
+   .prev, .next{
+	   font-size:20px; 
+   }  
+   .dot{
+	   margin-top:60vh;
+	   height: 8px;
+	   width: 8px;
+
+   }
+ 
 }
 #slideshow { 
     
