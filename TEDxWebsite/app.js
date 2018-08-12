@@ -21,10 +21,10 @@ app.get("/about",(req,res)=>{
 });
 
 app.get("/register",(req, res)=>{
-    res.redirect("https://www.townscript.com/e/tedxbmsce-2018-002010");    
+    res.redirect("https://www.townscript.com/e/tedxbmsce-2018-002010/booking");    
 });
 
-app.get("/registerSucess", (req, res)=>{
+app.get("/registerSuccess", (req, res)=>{
     res.render('acknow');
 });
 
