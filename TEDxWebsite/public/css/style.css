@@ -69,7 +69,7 @@
 	padding-bottom: 1em;
 }
 #spkrs{
-	padding-bottom: 67.5vh;
+	padding-bottom: 17vh;
 	z-index: 10;
 }
 #speakers_img{
@@ -210,7 +210,7 @@
 		padding-bottom:0;
 	}
 	#spkrs{
-		padding-bottom: 35em;
+		padding-bottom: 5em;
 	}
 	#speakers_img{
 		width: 60vw;
