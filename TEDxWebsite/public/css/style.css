@@ -26,8 +26,7 @@
 
 #particles-js{
 	width: 100vw;
-	height: 100vh;
-	
+	height: 100vh;	
 	background-color: #000000;
 	z-index: 1;
 	background-size: cover;
@@ -52,6 +51,13 @@
     transition: transform 0.2s;
 	/* pm 0em 14em; */
 	   
+}
+#text_acknow{
+	top:56vh;	
+	z-index: 1000;
+	position: relative;
+	padding-bottom: 1em;
+	padding-top:1em;
 }
 #logo:hover{
 	transform: scale(1.02)
@@ -179,6 +185,11 @@
  
 
 @media(max-device-aspect-ratio:10/16){
+	html,body{
+		overflow-x: hidden;
+		position: relative;
+	}
+
 	#logo{
 		max-width: 95vw;
 		height: auto;
@@ -189,6 +200,13 @@
 		/* padding: 14em 0em 14em; */
 		   
 	}
+	#text_acknow{
+		top:45vh;	
+		z-index: 1000;
+		position: relative;
+		padding-bottom: 0em;
+		padding-top:0em;
+	}
 
 	#buton {
 		position: absolute;
@@ -196,7 +214,9 @@
 		margin-top: 47vh;
 		min-width: 65vw;
 	}
-
+    #text_acknow{
+		margin-top: 28vh;
+	}
 	#email{
 		text-align: center !important; 
 	}
@@ -207,11 +227,11 @@
 	
 
 	#Ospeakers{
-		padding-top: 3em;
+		padding-top: 7vh;
 		padding-bottom:0;
 	}
 	#spkrs{
-		padding-bottom: 5em;
+		padding-bottom: 9vh;
 	}
 	#speakers_img{
 		width: 60vw;
@@ -219,7 +239,7 @@
 		margin-left:3.8em;
 	}
 	#speakers_text{
-		padding-top:2em;
+		padding-top:7vh;
 		text-align: center;
 		padding-left: 1.2em;
 	}
@@ -252,7 +272,7 @@
 		height: auto;
 		position: absolute;
 		z-index: -100;
-		margin-top:29em;
+		margin-top:60vh;
 		opacity: 0.75;
 	
 	}
