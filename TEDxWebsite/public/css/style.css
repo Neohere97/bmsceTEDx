@@ -66,7 +66,7 @@
 #buton {
 	position: absolute;
 	margin-left: 42vw;
-	margin-top: 57vh;
+	margin-top: 63vh;
 	
 
 }
@@ -152,6 +152,12 @@
 	transform: scale(1.05);
 }
 
+#date{
+	position: absolute;
+	margin-left: 42.4vw;
+	margin-top: 56vh;
+}
+
 .dot {
 	cursor: pointer;
 	height: 10px;
@@ -222,7 +228,7 @@
 	#buton {
 		position: absolute;
 		margin-left: 17vw;
-		margin-top: 47vh;
+		margin-top: 51vh;
 		min-width: 65vw;
 	}    
 	#email{
@@ -312,6 +318,11 @@
 	   height: auto;
 	   padding-bottom: 4vh;
    }
+   #date{
+	position: absolute;
+		margin-left: 26vw;
+		margin-top: 44vh;
+}
  
 }
 #slideshow { 
