@@ -142,6 +142,16 @@
 	transform: rotate(-20deg);
 }
 
+#sponsor_1{
+	width: 40vw;
+	height: auto;
+	transition: transform 0.3s;
+}
+
+#sponsor_1:hover{
+	transform: scale(1.05);
+}
+
 .dot {
 	cursor: pointer;
 	height: 10px;
@@ -296,6 +306,11 @@
 	   height: 8px;
 	   width: 8px;
 
+   }
+   #sponsor_1{
+	   width: 70vw;
+	   height: auto;
+	   padding-bottom: 4vh;
    }
  
 }
