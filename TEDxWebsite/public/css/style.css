@@ -141,16 +141,40 @@
 #mic:hover{
 	transform: rotate(-20deg);
 }
-
 #sponsor_1{
-	width: 40vw;
+	padding-right: 2em;
+	padding-left: 8em;
+}
+#sponsor_img_1{
+	width: 32em;
 	height: auto;
+	padding-bottom: 2%;
+	transition: transform 0.3s;
+}
+#sponsor_text_1{
+	padding-left:4em;
+}
+
+#sponsor_img_1:hover{
+	transform: scale(1.05);
+}
+
+
+#sponsor_2{
+	padding-left: 2em;
+	padding-top: 0.5em;
+}
+#sponsor_img_2{
+	width: 17em;
+	height: auto;
+	padding-bottom: 3%;
 	transition: transform 0.3s;
 }
 
-#sponsor_1:hover{
+#sponsor_img_2:hover{
 	transform: scale(1.05);
 }
+
 
 #date{
 	position: absolute;
@@ -314,10 +338,38 @@
 
    }
    #sponsor_1{
-	   width: 70vw;
-	   height: auto;
-	   padding-bottom: 4vh;
-   }
+	padding-right: 0vw;
+	padding-left: 5vw;
+	padding-bottom: 6vh;
+	}
+	#sponsor_img_1{
+		width: 85vw;
+		height: auto;
+		padding-bottom: 2%;
+		transition: transform 0.3s;
+	}
+	#sponsor_text_1{
+		padding-left:0em;
+	}
+
+	#sponsor_img_1:hover{
+		transform: scale(1.05);
+	}
+	#sponsor_2{
+		padding-left: 8vw;
+		padding-top: 0em;
+		padding-bottom:2vh;
+	}
+	#sponsor_img_2{
+		width: 50vw;
+		height: auto;
+		padding-bottom: 3%;
+		transition: transform 0.3s;
+	}
+
+	#sponsor_img_2:hover{
+		transform: scale(1.05);
+	}
    #date{
 	position: absolute;
 		margin-left: 26vw;
