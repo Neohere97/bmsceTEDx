@@ -142,17 +142,17 @@
 	transform: rotate(-20deg);
 }
 #sponsor_1{
-	padding-right: 2em;
-	padding-left: 8em;
+	padding-right: 0em;
+	padding-left: 0em;
 }
 #sponsor_img_1{
 	width: 32em;
 	height: auto;
-	padding-bottom: 2%;
+	padding-bottom: 0%;
 	transition: transform 0.3s;
 }
 #sponsor_text_1{
-	padding-left:4em;
+	padding-left:0em;
 }
 
 #sponsor_img_1:hover{
@@ -161,11 +161,11 @@
 
 
 #sponsor_2{
-	padding-left: 2em;
+	padding-left: 6em;
 	padding-top: 0.5em;
 }
 #sponsor_img_2{
-	width: 19em;
+	width: 21em;
 	height: auto;
 	padding-bottom: 3%;
 	transition: transform 0.3s;
@@ -176,8 +176,8 @@
 }
 
 #sponsor_3{
-	padding-left: 2em;
-	padding-top: 0em;
+	padding-left: 0em;
+	padding-top: 1em;
 }
 #sponsor_img_3{
 	width: 17em;
@@ -380,7 +380,7 @@
 	#sponsor_2{
 		padding-left: 8vw;
 		padding-top: 0em;
-		padding-bottom:2vh;
+		padding-bottom:6vh;
 	}
 	#sponsor_img_2{
 		width: 65vw;
@@ -396,6 +396,7 @@
 	#sponsor_3{
 		padding-left: 0em;
 		padding-top: 0em;
+		padding-bottom: 3vh;
 	}
 	#sponsor_img_3{
 		width: 55vw;
