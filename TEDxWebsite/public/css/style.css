@@ -320,7 +320,38 @@ padding: 1em;
 	right: 2.3em;
 	border-radius: 3px 0 0 3px;
   }  
- 
+
+  #timerc{	  
+	  padding-top:4em;
+	  padding-bottom:2em;
+	  
+	  text-align: center;
+	  padding-right:5.5em;
+  }
+  
+  
+  #labels li {
+	  display: inline;
+	  font-size: 1.8em;
+	   }
+  #labels1{
+	padding-left:4em;
+	padding-right:2em;
+  }
+  #labels2{
+	padding-left:2.5em;
+	padding-right:2em;
+  }
+  #labels3{
+	padding-left:2em;
+	padding-right:2em;
+  }
+  #labels4{
+	padding-left:1em;
+	padding-right:2em;
+  }
+
+
 
 
 
@@ -596,6 +627,11 @@ padding: 1em;
 	#sponsor_img_8:hover{
 		transform: scale(1.05);
 	}
+
+	#timerc{
+		display: none;
+	}
+   
 	
 	
 
