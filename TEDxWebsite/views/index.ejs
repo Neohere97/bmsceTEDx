@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123749625-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -26,19 +24,12 @@
 	<script src="../js/skel-layers.min.js"></script>
 	<script src="../js/init.js"></script>
 	<script src="../js/particles.js"></script>
-
-	<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>	 -->
 	<noscript>
-
 		<link rel="stylesheet" href="../css/style.css" />
-        
 	</noscript>
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="../css/flipclock.css">
-	
-
-
-		<script src="js/flipclock.js"></script>
+	<script src="js/flipclock.js"></script>
 
 </head>
 
@@ -170,7 +161,9 @@
 				<a style="text-decoration: none;" href="/register" class="button big">Book Tickets!</a>
 			</li>
 		</ul>
-		<!-- Header -->
+
+
+
 		<header id="header">
 			<a href="http://bmsce.in" target="_blank"><img src="../images/collegelogo.png" id="logo1" alt="BMS College Of Engineering"></a>
 			<nav id="nav">
@@ -185,70 +178,62 @@
 		</header>
 	</div>
 
-	<div id="timercc">
 
-	<p id="demo" style="text-align: center;
-	font-size: 9vw;
-	margin-top: 1.5em;;"></p>
-	
-	<center> <h3>To Go!</h3> </center>
-
-    <script>		
-		var countDownDate = new Date("Sep 22, 2018 00:00:00").getTime();		
-		var x = setInterval(function() {		
-			var now = new Date().getTime();			
-			var distance = countDownDate - now;		
-			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-			
-			document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-			+ minutes + "m " + seconds + "s ";
-			
-		
-			if (distance < 0) {
-				clearInterval(x);
-				document.getElementById("demo").innerHTML = "EXPIRED";
-			}
-		}, 1000);
+	<div id="timermobile">
+		<p id="demo" style="text-align: center;	font-size: 9vw;	margin-top: 1.5em;;"></p>
+		<center>
+			<h3>To Go!</h3>
+		</center>
+		<script>
+			var countDownDate = new Date("Sep 22, 2018 00:00:00").getTime();
+			var x = setInterval(function () {
+				var now = new Date().getTime();
+				var distance = countDownDate - now;
+				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+				document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+					+ minutes + "m " + seconds + "s ";
+				if (distance < 0) {
+					clearInterval(x);
+					document.getElementById("demo").innerHTML = "EXPIRED";
+				}
+			}, 1000);
 		</script>
+	</div>
 
-</div>
 
-   <div id="timerc">
-	  
-    <div class="clock"></div>
+	<!-- Desktop Timer -->
 
-	<script type="text/javascript">
-		var clock;
-		$(document).ready(function() {	
-			var currentDate = new Date();
-			var futureDate  = new Date(currentDate.getFullYear(), 8, 22);			
-			var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-			
-			clock = $('.clock').FlipClock(diff, {
-				clockFace: 'DailyCounter',
-				countdown: true
+	<div id="timerdesktop">
+		<div class="clock"></div>
+		<script type="text/javascript">
+			var clock;
+			$(document).ready(function () {
+				var currentDate = new Date();
+				var futureDate = new Date(currentDate.getFullYear(), 8, 22);
+				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+				clock = $('.clock').FlipClock(diff, {
+					clockFace: 'DailyCounter',
+					countdown: true
+				});
 			});
-		});
-	</script>   
-	<ul id="labels">
-		<li id="labels1" >Days</li>
-		<li id="labels2" >Hours</li>
-		<li id="labels3">Minutes</li>
-		<li id="labels4">Seconds</li>
-	  </ul>  
-
-	 
-	  
-</div>
-
-
-<center><h1 id="togo">To Go!</h1>  </center>
+		</script>
+		<ul id="labels">
+			<li id="labels1">Days</li>
+			<li id="labels2">Hours</li>
+			<li id="labels3">Minutes</li>
+			<li id="labels4">Seconds</li>
+		</ul>
+	</div>
+	<center>
+		<h1 id="togo">To Go!</h1>
+	</center>
+	
 	<div>
 		<div id="theme_section">
-
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-5">
@@ -257,16 +242,11 @@
 					<div class="col-md-1">
 					</div>
 					<div class="col-md-6" id="theme_text">
-
 						<header>
-
 							<h1 id="AADD">
 								ACROSS A <span style="color:#e62b1e">DOZEN</span> DIMENSIONS
 							</h1>
-
 						</header>
-
-
 						<p>
 							It is inevitable that we walk through the path of life as time passes, sometimes if we are fortunate enough we
 							can choose the path we take. Irrespective of the path we take, we are bound to meet new people, and they are all
@@ -277,28 +257,20 @@
 							perspectives will have an additional dozen dimensions added to your consciousness, helping you walk through your
 							path of life efficiently and more knowledgeable than before.
 						</p>
-
 					</div>
-
 				</div>
 				<img id="mic" src="images/mic.png" alt="">
 			</div>
-
-
 		</div>
 	</div>
 
 	<a name="speakers"></a>
-
 	<div style="background-color: rgba(0, 0, 0, 0)" id="spkrs">
 
 		<header class="major" id="Ospeakers">
 			<h2>Our Speakers</h2>
 		</header>
 		<div id="slideshow">
-
-
-
 			<div class="container-fluid mySlides">
 				<div class="row">
 					<div class="col-md-2">
@@ -313,12 +285,10 @@
 								Dilip Patel
 							</h2>
 						</a>
-
 						<p>
 							Engineer, Counsellor, Trainer, Learning Facilitator <br>
 							& Certified Zentangle Teacher
 						</p>
-
 					</div>
 					<div class="col-md-1">
 					</div>
@@ -339,7 +309,6 @@
 								Sudeendra Koushik
 							</h2>
 						</a>
-
 						<p>
 							Chair IEEE Bangalore, Chief Innovator & Co-Founder at Prasu
 						</p>
@@ -364,7 +333,6 @@
 								Trinetra Haldar Gummaraju
 							</h2>
 						</a>
-
 						<p>
 							Artist, Medical Student, A Proud Transwoman
 						</p>
@@ -389,7 +357,6 @@
 								Alakh Alok Srivastava
 							</h2>
 						</a>
-
 						<p>
 							Gold Medalist Advocate, Supreme Court of India
 						</p>
@@ -398,7 +365,6 @@
 					</div>
 				</div>
 			</div>
-
 
 
 			<div class="container-fluid mySlides">
@@ -415,7 +381,6 @@
 								Poornima Ashok
 							</h2>
 						</a>
-
 						<p>
 							Dansuese, Director of Nrithyanjali School of Bharatanatyam, Bangalore
 						</p>
@@ -442,7 +407,6 @@
 								Anshul Chodha
 							</h2>
 						</a>
-
 						<p>
 							Principal Architect, Sanctuary Architects & Interior Designers
 						</p>
@@ -467,7 +431,6 @@
 								Monishwaran Maheswaran
 							</h2>
 						</a>
-
 						<p>
 							Computer Scientist, Inventor, Author & Amateur Mathematician
 						</p>
@@ -492,7 +455,6 @@
 								Akshayee Shetty
 							</h2>
 						</a>
-
 						<p>
 							Graphic Designer, Autism Specialist <br> & Founder-Director at Sense Kaleidoscope
 						</p>
@@ -516,7 +478,6 @@
 								Chanchalapathi Dasa
 							</h2>
 						</a>
-
 						<p>
 							Vice Chairman, The Akshaya Patra Foundation
 						</p>
@@ -539,7 +500,6 @@
 								V Minor
 							</h2>
 						</a>
-
 						<p>
 							Indian Fusion Music Band, Innovating, Experimenting<br> & spreading joy using music
 						</p>
@@ -568,6 +528,7 @@
 		</div>
 	</div>
 
+
 	<!-- Two -->
 	<a name="sponsors"></a>
 	<section id="two" class="wrapper style1 special">
@@ -578,8 +539,8 @@
 
 			<div id="sponsors_row" class="row 150%">
 
-				<div class="6u 12u$(medium)" id="sponsor_2">
-					<a href="https://www.honeywell.com" target="_blank"><img id="sponsor_img_2" src="images/sponsors/honeywell.png"
+				<div class="6u 12u$(medium)" id="sponsor_1">
+					<a href="https://www.honeywell.com" target="_blank"><img id="sponsor_img_1" src="images/sponsors/honeywell.png"
 						 alt=""></a>
 					<h5 id="sponsor_text_2">Silver Collaborator</h5>
 				</div>
@@ -604,8 +565,8 @@
 				</div>
 
 				<div class="4u 12u$(medium)" id="sponsor_4">
-					<a title="Bronze Partner" href="http://www.vivo.com/in/" target="_blank"><img id="sponsor_img_4"
-						 src="images/sponsors/vivo.png" alt="Vivo"></a>
+					<a title="Bronze Partner" href="http://www.vivo.com/in/" target="_blank"><img id="sponsor_img_4" src="images/sponsors/vivo.png"
+						 alt="Vivo"></a>
 					<h5 id="sponsor_text_4"> Bronze Supporter </h5>
 
 				</div>
@@ -629,18 +590,18 @@
 				</div>
 
 				<div class="4u 12u$(medium)" id="sponsor_7">
-					<a title="Bronze Partner" href="https://www.nooitheinviteapp.com/" target="_blank"><img id="sponsor_img_7"
-						 src="images/sponsors/nooi.png" alt="V"></a>
+					<a title="Bronze Partner" href="https://www.nooitheinviteapp.com/" target="_blank"><img id="sponsor_img_7" src="images/sponsors/nooi.png"
+						 alt="V"></a>
 					<h5 id="sponsor_text_3"> Official Invite Partner </h5>
 
 				</div>
 
 				<div class="4u 12u$(medium)" id="sponsor_5">
-					<a title="Gifting Partner" href="http://bmsce.in/" target="_blank"><img id="sponsor_img_5"
-						 src="images/sponsors/collegelogo2.png" alt="BMSCE"></a>
+					<a title="Gifting Partner" href="http://bmsce.in/" target="_blank"><img id="sponsor_img_5" src="images/sponsors/collegelogo2.png"
+						 alt="BMSCE"></a>
 
-						 <h5 id="sponsor_text_5"> Venue Partner </h5>
-					
+					<h5 id="sponsor_text_5"> Venue Partner </h5>
+
 				</div>
 			</div>
 
@@ -670,7 +631,6 @@
 			<h2 style="text-align: center; padding-bottom: 3%;">Any Queries?</h2>
 			<section class="links">
 				<div class="row">
-
 					<ul class="icons">
 						<li>
 							<p><i class="icon rounded fa-envelope" href="tedxbmsce@bmsce.ac.in" target="_blank"><span class="label">Mail</span></i>tedxbmsce@bmsce.ac.in</p>
@@ -689,15 +649,11 @@
 							<a class="icon rounded fa-linkedin" href="https://in.linkedin.com/company/tedxbmsce" target="_blank"><span class="label">LinkedIn</span></a>
 						</li>
 					</ul>
-
 				</div>
 			</section>
-
 		</div>
 	</footer>
-
 	<script>
-
 		function initMap() {
 			var BMSCE = { lat: 12.9410044, lng: 77.5655297 };
 			var map = new google.maps.Map(
@@ -705,9 +661,7 @@
 			var marker = new google.maps.Marker({ position: BMSCE, map: map });
 		}
 	</script>
-
 	<script>
-
 		var slideIndex = 1;
 		showSlides(slideIndex);
 		function plusSlides(n) {
@@ -730,13 +684,13 @@
 			}
 			slides[slideIndex - 1].style.display = "block";
 			dots[slideIndex - 1].className += " active";
-		}
+		}		
 	</script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDx--LK3-MCTnhAhaHWy81SrKFkV20ni4Y&callback=initMap">
-
 	</script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/scripts.js"></script>
+
 	<script>
 		$('a[href*="#"]')
 			.not('[href="#"]')
@@ -767,7 +721,5 @@
 				}
 			});
 	</script>
-
 </body>
-
 </html>

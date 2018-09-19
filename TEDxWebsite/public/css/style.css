@@ -2,28 +2,17 @@
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
 
-/* #load{
-    width:100%;
-    height:100%;
-    position:fixed;
-    z-index:9999;
-    background:url(..//images/Preloader_5.gif) no-repeat center center rgba(255, 255, 255, 0.925)
-} */
-
-
 #logo1{
 	float: left;
 	padding : 2%;
 	margin: 1%;
 	width: 12vw;
 	height:auto;
-	transition: transform 0.3s;
-	
+	transition: transform 0.3s;	
 }
 #logo1:hover{
 	transform: scale(1.05)
 }
-
 #particles-js{
 	width: 100vw;
 	height: 100vh;	
@@ -33,24 +22,17 @@
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
   }
-
-/* map */
 #map {
-
 	height : 400px;
 	width :100%;
 }
-
-
 #logo{
 	max-width: 35%;
 	height: auto;
 	position: absolute;
 	margin-left: 33%;
 	margin-top: 37vh;		
-    transition: transform 0.2s;
-	/* pm 0em 14em; */
-	   
+    transition: transform 0.2s;	   
 }
 #text_acknow{
 	top:56vh;	
@@ -62,13 +44,10 @@
 #logo:hover{
 	transform: scale(1.02)
 }
-
 #buton {
 	position: absolute;
 	margin-left: 42vw;
 	margin-top: 63vh;
-	
-
 }
 #Ospeakers{
 	padding-top: 13vh;
@@ -89,8 +68,7 @@
 }
 #speakers_text{
 	text-align: center;
-	padding-top:14vh;	
-	
+	padding-top:14vh;		
 }
 #theme_logo{
 	width: 45vw;
@@ -111,16 +89,13 @@
 	padding-top:6em;
 	padding-right: 2em;
 	font-size: 1.1vw;
-	text-align: center;
-	
+	text-align: center;	
 }
 #AADD{
 	padding-bottom:0.7em;
 	font-size:2.2vw;
-
 }
-#theme_skyline{
-	
+#theme_skyline{	
 	width: 100vw;
 	height: auto;
 	position: absolute !important;
@@ -128,7 +103,6 @@
 	margin-top:40vh;
 	opacity: 0.75;
 	transition: transform .5s;
-
 }
 #mic{
 	width:6vw;
@@ -153,12 +127,9 @@ padding: 1em;
 #sponsor_text_1{
 	padding-left:0em;
 }
-
 #sponsor_img_1:hover{
 	transform: scale(1.05);
 }
-
-
 #sponsor_2{
 	padding-left: 6em;
 	padding-top: 0.5em;
@@ -169,15 +140,9 @@ padding: 1em;
 	padding-bottom: 3%;
 	transition: transform 0.5s;
 }
-
 #sponsor_img_2:hover{
 	transform: scale(1.05);
 }
-
-#timercc{
-	display: none;
-}
-
 #sponsor_3{
 	padding: 1em;
 }
@@ -187,14 +152,12 @@ padding: 1em;
 	padding-bottom: 1.25%;
 	transition: transform 0.5s;
 }
-
 #sponsor_img_3:hover{
 	transform: scale(1.05);
 }
 #sponsor_text_3{
 	padding-top:0;
 }
-
 #sponsor_4{
 	padding: 1em;
 }
@@ -204,11 +167,9 @@ padding: 1em;
 	padding-bottom: 1.25%;
 	transition: transform 0.5s;
 }
-
 #sponsor_img_4:hover{
 	transform: scale(1.05);
 }
-
 #sponsor_5{
 	padding: 1em;
 	
@@ -219,15 +180,11 @@ padding: 1em;
 	padding-bottom: 1.25%;
 	transition: transform 0.5s;
 }
-
 #sponsor_img_5:hover{
 	transform: scale(1.05);
 }
-
-
 #sponsor_6{
-	padding: 1em;
-	
+	padding: 1em;	
 }
 #sponsor_img_6{
 	width: 16em;
@@ -235,11 +192,9 @@ padding: 1em;
 	padding-bottom: 1.25%;
 	transition: transform 0.5s;
 }
-
 #sponsor_img_6:hover{
 	transform: scale(1.05);
 }
-
 #sponsor_7{
 	padding: 1em;
 	padding-left:6em;
@@ -250,16 +205,12 @@ padding: 1em;
 	padding-bottom: 1.25%;
 	transition: transform 0.5s;
 }
-
 #sponsor_img_7:hover{
 	transform: scale(1.05);
 }
-
-
 #sponsor_8{
 	padding: 1em;
-	padding-left: 8em;
-	
+	padding-left: 8em;	
 }
 #sponsor_img_8{
 	width: 17em;
@@ -267,23 +218,17 @@ padding: 1em;
 	padding-bottom: 1.25%;
 	transition: transform 0.5s;
 }
-
 #sponsor_img_8:hover{
 	transform: scale(1.05);
 }
-
-
-
 #sponsors_row{
 	padding-bottom:4em;
 }
-
 #date{
 	position: absolute;
 	margin-left: 42.4vw;
 	margin-top: 56vh;
 }
-
 .dot {
 	cursor: pointer;
 	height: 10px;
@@ -294,8 +239,7 @@ padding: 1em;
 	display: inline-block;
 	transition: background-color 0.3s;
 	margin-top: 49vh;
-  }
-  
+  }  
   .active, .dot:hover {
 	background-color: #717171;
   }
@@ -325,13 +269,17 @@ padding: 1em;
 	border-radius: 3px 0 0 3px;
   }  
 
-  #timerc{	  
+  #timerdesktop{	  
 	  padding-top:4em;
 	  padding-bottom:2em;
 	  
 	  text-align: center;
 	  padding-right:5.5em;
   }
+
+  #timermobile{
+	display: none;
+}
   
   
   #labels li {
@@ -339,7 +287,7 @@ padding: 1em;
 	  font-size: 1.8em;
 	   }
   #labels1{
-	padding-left:4em;
+	padding-left:5em;
 	padding-right:2em;
   }
   #labels2{
@@ -355,41 +303,12 @@ padding: 1em;
 	padding-right:2em;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-device-aspect-ratio:10/16){
 	html,body{
 		overflow-x: hidden;
 		position: relative;
-	}
-   
-	#timercc{
-		display: block;
-	} 
-
+	}   
+	
 	#logo{
 		max-width: 95vw;
 		height: auto;
@@ -636,14 +555,13 @@ padding: 1em;
 		transform: scale(1.05);
 	}
 
-	#timerc{
-		/* padding-top:2em;
-		transform: scale(0.1);
-		padding-bottom:0em;
-	    padding-left:0em;		text-align: center;
-		padding-right:0em; */
+	#timerdesktop{		
      display:none;
 	}
+	#timermobile{
+		display: block;
+	} 
+
    #togo{
 	   display:none;
    }
@@ -1922,10 +1840,4 @@ padding: 1em;
 		}
 
 
-
-		/* #site-wrapper {
-			overflow: auto; 
-			height: 100%
-		} */
-
-		
+	
