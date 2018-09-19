@@ -629,9 +629,16 @@ padding: 1em;
 	}
 
 	#timerc{
-		display: none;
+		/* padding-top:2em;
+		transform: scale(0.1);
+		padding-bottom:0em;
+	    padding-left:0em;		text-align: center;
+		padding-right:0em; */
+     display:none;
 	}
-   
+   #togo{
+	   display:none;
+   }
 	
 	
 
