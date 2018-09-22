@@ -179,29 +179,7 @@
 	</div>
 
 
-	<div id="timermobile">
-		<p id="demo" style="text-align: center;	font-size: 9vw;	margin-top: 1.5em;;"></p>
-		<center>
-			<h3>To Go!</h3>
-		</center>
-		<script>
-			var countDownDate = new Date("Sep 22, 2018 00:00:00").getTime();
-			var x = setInterval(function () {
-				var now = new Date().getTime();
-				var distance = countDownDate - now;
-				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-				document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-					+ minutes + "m " + seconds + "s ";
-				if (distance < 0) {
-					clearInterval(x);
-					document.getElementById("demo").innerHTML = "EXPIRED";
-				}
-			}, 1000);
-		</script>
-	</div>
+	
 
 
 	<!-- Desktop Timer -->
@@ -215,6 +193,10 @@
 				var futureDate = new Date(currentDate.getFullYear(), 8, 22);
 				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
+				console.log(diff);
+				if(diff < 0){
+					diff = 0;
+				}
 				clock = $('.clock').FlipClock(diff, {
 					clockFace: 'DailyCounter',
 					countdown: true
